@@ -1,5 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
 body {
-  background-color: rebeccapurple;
-  font-family: Nunito;
+  font-family: nunito, sans-serif;
+}
+
+.hero {
+  height: 260px;
+  text-align: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  background-image: url("hero-pic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.hero h1 {
+  font-size: 400%;
+  position: relative;
+  color: rgb(115, 29, 29);
+}
+
+.hero p {
+  font-weight: bold;
+  font-size: 150%;
+  position: relative;
+  color: rgb(88, 5, 34);
 }
