@@ -91,7 +91,7 @@ img {
   margin-top: 30px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
   body {
     max-width: 95%;
     margin: 0 auto;
@@ -119,6 +119,10 @@ img {
   .desktop-image {
     display: none;
   }
+
+  .r4 {
+    padding-bottom: 30px;
+  }
 }
 
 @media only screen and (max-width: 990px) {
@@ -138,11 +142,5 @@ img {
   .desktop-image {
     position: relative;
     top: 40px;
-  }
-}
-
-@media only screen and (max-width: 770px) {
-  .r4 {
-    padding-bottom: 30px;
   }
 }
