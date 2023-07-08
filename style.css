@@ -51,14 +51,6 @@ img {
   margin-top: 50px;
 }
 
-.margin {
-  padding-top: 30px;
-}
-
-.padding {
-  padding-top: 20px;
-}
-
 img {
   height: 320px;
   width: 530px;
@@ -87,9 +79,21 @@ img {
   border-color: #faa4a4;
 }
 
-@media only screen and (max-width: 425px) {
+.responsive-image {
+  display: none;
+}
+
+.padding {
+  padding-top: 30px;
+}
+
+.margin {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
   body {
-    max-width: 90%;
+    max-width: 95%;
     margin: 0 auto;
   }
   .hero h1 {
@@ -106,5 +110,34 @@ img {
 
   .padding {
     padding-top: 0;
+  }
+
+  .responsive-image {
+    display: block;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .text {
+    padding: 0 10px;
+  }
+
+  .margin {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .r3 {
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .r4 {
+    padding-bottom: 30px;
   }
 }
