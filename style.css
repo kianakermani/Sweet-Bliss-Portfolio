@@ -91,6 +91,51 @@ img {
   margin-top: 30px;
 }
 
+.header {
+  text-align: center;
+  font-size: 300%;
+  margin-bottom: 15px;
+}
+
+.content-about {
+  font-size: larger;
+  font-weight: 550;
+}
+
+.header2 {
+  text-align: center;
+  font-size: 250%;
+}
+
+.text-about {
+  text-align: center;
+  padding: 60px;
+}
+
+.text-about p {
+  text-align: justify;
+}
+
+hr {
+  width: 80vw;
+  height: 3px;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 2px dashed #d33a2c;
+}
+
+@media only screen and (max-width: 1200px) {
+  .text-about {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .text-about {
+    padding-bottom: 40px;
+  }
+}
+
 @media only screen and (max-width: 770px) {
   body {
     max-width: 95%;
