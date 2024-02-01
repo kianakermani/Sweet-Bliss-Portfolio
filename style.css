@@ -47,6 +47,12 @@ img {
   text-align: justify;
   line-height: 1.7;
 }
+.p2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: 200;
+}
 .container {
   margin-top: 50px;
 }
@@ -122,6 +128,12 @@ hr {
   margin: 0 auto;
   border: none;
   border-bottom: 2px dashed #d33a2c;
+}
+
+.image {
+  height: 450px;
+  width: 450px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
