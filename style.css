@@ -166,6 +166,31 @@ a {
 a:hover {
   color: #fbf1f1;
 }
+
+.contact-box {
+  background-color: #f6d1d1;
+  padding: 20px 40px;
+  border-radius: 40px;
+  margin: 0 15px 40px 40px;
+}
+
+footer {
+  margin: 20px 0;
+}
+
+.ico {
+  font-size: 200%;
+  padding: 2px;
+}
+.ico:hover {
+  color: rgb(122, 0, 0);
+}
+.c {
+  font-size: larger;
+}
+.c:hover {
+  color: rgb(122, 0, 0);
+}
 @media only screen and (max-width: 1200px) {
   .text-about {
     padding: 10px;
@@ -183,7 +208,6 @@ a:hover {
     max-width: 95%;
     margin: 0 auto;
   }
-
   nav ul {
     padding-right: 30px;
   }
